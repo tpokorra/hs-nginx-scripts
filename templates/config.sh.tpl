@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export NGINXPORT80=MYPORT80
+export NGINXPORT443=MYPORT443
+
