@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/usr/bin/supervisord -c $HOME/supervisor/etc/supervisord.conf
+rm -f $HOME/var/run/monit.id && /usr/bin/monit -c "$HOME/.monitrc"
